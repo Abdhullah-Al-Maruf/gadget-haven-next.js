@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
 import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="bg-linear-to-t from-[#9538E2] to-[#9538E1] h-[80vh] mt-5 mx-5 rounded-md ">
+    <div className="bg-linear-to-t from-[#9538E2] to-[#9538E1] h-[80vh]  mx-5 rounded-md ">
       <div className="space-y-5 p-10 relative">
         <h1 className="font-bold text-white text-3xl text-center">
           Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories
@@ -22,12 +21,12 @@ const Banner = () => {
         </div>
       </div>
       
-   <div className="absolute left-1/2 transform -translate-x-1/2 p-[2px] rounded-xl bg-gradient-to-r from-white/30 to-white/10 backdrop-blur-md">
-  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 shadow-md">
+   <div className="absolute left-1/2 transform -translate-x-1/2 p-[2px] rounded-xl bg-gradient-to-r from-white/30 to-white/10 backdrop-blur-lg">
+  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 ">
     <Image
       src="/vrheadset.png"
       alt="vr headset"
-      width={700}
+      width={800}
       height={400}
       className="rounded-lg"
     />

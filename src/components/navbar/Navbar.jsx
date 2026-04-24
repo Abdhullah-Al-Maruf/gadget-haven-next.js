@@ -44,7 +44,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link href="/" className="text-xl">
-            Gadget Heaven
+            Product <span className="bg-linear-to-r from-purple-600 to-blue-400  bg-clip-text text-transparent font-bold" >Heaven</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

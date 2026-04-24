@@ -3,6 +3,8 @@ import "./globals.css";
 
 
 import Navbar from "@/components/navbar/Navbar";
+import CategoryProvider from "@/context/catagoryContext";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,8 +29,10 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        <main>{children}</main>
+        <CategoryProvider>
+          <Navbar />
+          <main>{children}</main>
+        </CategoryProvider>
       </body>
     </html>
   );
