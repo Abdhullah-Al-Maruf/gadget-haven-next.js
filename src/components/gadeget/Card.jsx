@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({ product }) => {
   return (
-    <div className="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-200 max-h-[350px] flex flex-col">
+    <div className="card bg-base-100 shadow-xl hover:shadow-xl transition-all duration-200 max-h-[350px] flex flex-col">
 
       {/* Image */}
       <figure className="p-5 flex justify-center">
